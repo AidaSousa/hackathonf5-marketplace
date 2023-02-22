@@ -1,9 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
-import Navbar from "./components/molecules/Navbar";
+import NavbarC from "./components/molecules/NavbarC";
 import Footer from "./components/molecules/Footer";
 
 function App() {
- 
+ return(
+  <NavbarC/>
+ )
 }
 
 export default App;
