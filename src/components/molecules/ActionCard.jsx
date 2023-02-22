@@ -7,11 +7,13 @@ import { CardActionArea } from '@mui/material';
 import iMetro from "../../assets/icons/iMetro.svg";
 import iBath from "../../assets/icons/iBath.svg";
 import iDorm from "../../assets/icons/iDorm.svg";
+import "../molecules/actionCard.css"
 
-export default function ActionCard({img, price, direc, m, hab, bath}) {
+export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
+  
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+    <Card sx={{ maxWidth: 360 }}>
+      <CardActionArea className='containerCards'>
         <CardMedia
           component="img"
           image={img}
