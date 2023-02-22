@@ -1,11 +1,11 @@
-import BasicExample from "./components/molecules/ActionCard";
+import ActionCard from "./components/molecules/ActionCard";
 import home from "./assets/img/home..jpg"
 
 function App() {
   return (
     <>
       <div>Hola</div>
-      <BasicExample
+      <ActionCard
         img={home} 
         price="200.000€" 
         direc="Promoción en C. Londres" 
