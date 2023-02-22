@@ -1,0 +1,12 @@
+.containerHome{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-decoration: none;
+}
+
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
