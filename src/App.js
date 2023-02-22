@@ -1,8 +1,12 @@
-
+import iDorm from "./assets/iDorm.svg"
 
 function App() {
   return (
-    <div>Hola</div>
+    <div>Hola     <img src={iDorm}/>
+    </div>
+    
+
+    
   );
 }
 
