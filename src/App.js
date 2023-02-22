@@ -1,12 +1,19 @@
-import iDorm from "./assets/iDorm.svg"
+import BasicExample from "./components/molecules/ActionCard";
+import home from "./assets/img/home..jpg"
 
 function App() {
   return (
-    <div>Hola     <img src={iDorm}/>
-    </div>
-    
-
-    
+    <>
+      <div>Hola</div>
+      <BasicExample
+        img={home} 
+        price="200.000€" 
+        direc="Promoción en C. Londres" 
+        m="100m" 
+        hab="1 dorm." 
+        bath="1 baño"
+      />
+    </>
   );
 }
 
