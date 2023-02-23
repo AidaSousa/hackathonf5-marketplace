@@ -8,10 +8,10 @@ import iMetro from "../../assets/icons/iMetro.svg";
 import iBath from "../../assets/icons/iBath.svg";
 import iDorm from "../../assets/icons/iDorm.svg";
 import Card1 from "../../assets/img/Carousel2.jpg"
-import "../views/viewCards.css";
+import "../views/ViewDescription.css";
 
 
-function ViewCard2() {
+function ViewDescription3() {
     
   return (
     <Card sx={{ maxWidth: 1500 }} className="containerCard">
@@ -39,4 +39,4 @@ function ViewCard2() {
   )
 }
 
-export default ViewCard2;
+export default ViewDescription3;

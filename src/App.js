@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/molecules/Navbar";
 import Footer from "./components/molecules/Footer";
 import Home from "./components/views/Home";
-import ViewCard1 from "./components/views/ViewCard1";
-import ViewCard2 from "./components/views/ViewCard2";
-import ViewCard3 from "./components/views/ViewCard3";
-import ViewCard4 from "./components/views/ViewCard4";
+import ViewDescription1 from "./components/views/ViewDescription1";
+import ViewDescription2 from "./components/views/ViewDescription2";
+import ViewDescription3 from "./components/views/ViewDescription3";
+import ViewDescription4 from "./components/views/ViewDescription4";
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/ViewCard1' element={<ViewCard1/>}/>
-          <Route path='/ViewCard2' element={<ViewCard2/>}/>
-          <Route path='/ViewCard3' element={<ViewCard3/>}/>
-          <Route path='/ViewCard4' element={<ViewCard4/>}/>
+          <Route path='/ViewDescription1' element={<ViewDescription1/>}/>
+          <Route path='/ViewDescription2' element={<ViewDescription2/>}/>
+          <Route path='/ViewDescription3' element={<ViewDescription3/>}/>
+          <Route path='/ViewDescription4' element={<ViewDescription4/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      

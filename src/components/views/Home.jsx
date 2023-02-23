@@ -25,7 +25,7 @@ function Home() {
             </Carousel>
         </div>
         <div className='containerCards'>
-            <Link to="/ViewCard1">
+            <Link to="/ViewDescription1">
                 <ActionCard
                     img={Card1} 
                     price="200.000€" 
@@ -35,7 +35,7 @@ function Home() {
                     bath="1 baño"
                 /> 
             </Link>
-            <Link to="/viewCard2">
+            <Link to="/ViewDescription2">
                 <ActionCard
                     img={Card2} 
                     price="200.000€" 
@@ -45,7 +45,7 @@ function Home() {
                     bath="1 baño"
                 />
             </Link>
-            <Link to="/viewCard3">
+            <Link to="/ViewDescription3">
                 <ActionCard
                     img={Card3} 
                     price="200.000€" 
@@ -55,7 +55,7 @@ function Home() {
                     bath="1 baño"
                 /> 
             </Link>
-            <Link to="/viewCard4">  
+            <Link to="/ViewDescription4">  
                 <ActionCard
                     img={Card4} 
                     price="200.000€" 
