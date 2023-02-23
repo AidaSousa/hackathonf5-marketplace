@@ -8,17 +8,22 @@ import iMetro from "../../../assets/icons/iMetro.svg";
 import iBath from "../../../assets/icons/iBath.svg";
 import iDorm from "../../../assets/icons/iDorm.svg";
 import "../actionCards/actionCard.css"
+import Heart from "../../../assets/icons/heart.svg";
 
 export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
   
   return (
     <Card sx={{ maxWidth: 360 }}>
       <CardActionArea className='containerCards'>
-        <CardMedia
-          component="img"
-          image={img}
-          alt="home"
-        />
+        <div>
+           <a><img src={Heart} alt="Heart" className=''/></a>
+          <CardMedia
+            component="img"
+            image={img} 
+            alt="home"
+            
+          />
+        </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" className='textCard'>
             <h5>{price}</h5>
