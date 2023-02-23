@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: rgba(92, 90, 188, 1);
+    color: rgba(252, 250, 250, 0.87);
+    font-size: 1.400rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dFlex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.25rem;
+    position: relative;
+    width: 23.9375rem;
+}
+
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 3.25rem;
+    height: 2.25rem;
+    left: 20.5rem;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.logoEasy {
+    margin-right: 60.5rem;
+}
+
+.navbarLog {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.favorite{
+    
+    margin-top: 25px;
+    position: relative;
+    width: 3.45rem;
+    height: 2.45rem;  
+    margin-left: 40px;    
+}
+.login{
+    margin-top: 25px;
+    position: relative;
+    width: 3.45rem;
+    height: 2.45rem;       
+}
