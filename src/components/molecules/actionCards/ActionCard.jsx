@@ -15,20 +15,17 @@ export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
   return (
     <Card sx={{ maxWidth: 360 }}>
       <CardActionArea className='containerCards'>
-        <div>
-           <button style={{background: 'none', border: 'none', display: 'flex'}}><img src={Heart} alt="Heart"/></button>
           <CardMedia
             component="img"
             image={img} 
-            alt="home"
-            
+            alt="home" 
           />
-        </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" className='textCard'>
-            <h5>{price}</h5>
+            <h5>{price}</h5> 
+            <button style={{background: 'none', border: 'none', display: 'flex'}}><img src={Heart} alt="Heart"/></button>
           </Typography>
-          <Typography gutterBottom variant="h5" component="div"className='textCard'>
+          <Typography gutterBottom variant="h5" component="div" className='textCard'>
             <h5>{direc}</h5>
           </Typography>
           <Typography variant="body2" color="text.secondary" className='textCard'>

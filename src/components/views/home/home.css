@@ -9,3 +9,17 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+@media screen and (max-width: 600px) {
+
+    .containerCards {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-left: 5%;
+    }
+
+ 
+    
+
+}
