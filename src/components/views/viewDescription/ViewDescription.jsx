@@ -14,6 +14,7 @@ import Buttons from '../../atoms/Buttons/Buttons';
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import swal from 'sweetalert';
 
 
 function ViewDescription() {
@@ -30,6 +31,14 @@ function ViewDescription() {
         }
         getElementsById();
       }, [])
+      const mostrarAlerta=()=>{
+        swal({
+            title:"Aviso",
+            text:"!Este piso ha bajado su precio hace un minuto!",
+            icon:"warning"
+
+        })
+    }
 
     return (
         <div className='viewContainer'>
@@ -43,13 +52,13 @@ function ViewDescription() {
                     <Typography gutterBottom variant="h5" component="div" className='textCard'>
                         <h5>{data.precio}€</h5>
                     </Typography>
-                    <Link to="/contact" className='linkCard'><Buttons/></Link>
                     <Typography gutterBottom variant="h5" component="div" className='textCard'>
                         <h5>{data.ciudad} <span className='subtitleCards'>{data.extension}m²<img src={iMetro} alt="icon metro" /> {data.habitaciones} dorm.<img src={iDorm} alt="icon dormitorio" /> {data.baños} baño/s<img src={iBath} alt="icon baño" /></span></h5>
                     </Typography>
                     <Typography variant="body2" color="text.primary" className='textCard'>
                         {data.descripcion}
                     </Typography>
+                    <Link onClick={()=>mostrarAlerta()} to="/contact" className='linkCard' style={{display: 'flex', justifyContent: 'center'}}><Buttons/></Link>
                 </CardContent>
             </Card>
         </div>
