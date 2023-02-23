@@ -4,11 +4,11 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import iMetro from "../../assets/icons/iMetro.svg";
-import iBath from "../../assets/icons/iBath.svg";
-import iDorm from "../../assets/icons/iDorm.svg";
-import Card1 from "../../assets/img/Carousel2.jpg"
-import "../views/ViewDescription.css";
+import iMetro from "../../../assets/icons/iMetro";
+import iBath from "../../../assets/icons/iBath.svg";
+import iDorm from "../../../assets/icons/iDorm.svg";
+import Card1 from "../../../assets/img/Carousel2.jpg"
+import "../viewDescription/ViewDescription.css";
 
 
 function ViewDescription2() {

@@ -4,10 +4,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import iMetro from "../../assets/icons/iMetro.svg";
-import iBath from "../../assets/icons/iBath.svg";
-import iDorm from "../../assets/icons/iDorm.svg";
-import "../molecules/actionCard.css"
+import iMetro from "../../../assets/icons/iMetro.svg";
+import iBath from "../../../assets/icons/iBath.svg";
+import iDorm from "../../../assets/icons/iDorm.svg";
+import "../actionCards/actionCard.css"
 
 export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
   

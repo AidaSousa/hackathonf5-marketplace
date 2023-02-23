@@ -2,15 +2,14 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import iMetro from "../../assets/icons/iMetro.svg";
-import iBath from "../../assets/icons/iBath.svg";
-import iDorm from "../../assets/icons/iDorm.svg";
-import Card1 from "../../assets/img/Carousel2.jpg"
-import "../views/ViewDescription.css";
-import Carousel from '../molecules/carousel';
-import CarouselItem from '../atoms/carouselItem';
-import trial1 from '../../assets/img/trial1.png';
-import trial2 from '../../assets/img/trial2.png';
+import iMetro from "../../../assets/icons/iMetro.svg";
+import iBath from "../../../assets/icons/iBath.svg";
+import iDorm from "../../../assets/icons/iDorm.svg";
+import './ViewDescription.css';
+import Carousel from '../../molecules/carousel/carousel'
+import CarouselItem from '../../atoms/carouselItem/carouselItem';
+import trial1 from '../../../assets/img/trial1.png';
+import trial2 from '../../../assets/img/trial2.png';
 
 
 function ViewDescription1() {
