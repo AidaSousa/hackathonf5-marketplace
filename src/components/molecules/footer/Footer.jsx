@@ -1,5 +1,5 @@
 import React from 'react'
-import '../molecules/Footer.css'
+import '../footer/footer.css'
 
 function Footer() {
     return (
@@ -11,4 +11,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;

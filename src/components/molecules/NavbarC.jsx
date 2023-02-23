@@ -1,15 +1,20 @@
 import React from 'react'
-import '../molecules/Navbar.css'
+import '../molecules/NavbarC.css'
 import Logo from '../../assets/logoEasy.svg'
+import Favorite from'../../assets/favorite.svg'
+import login from'../../assets/login.svg'
 
 
 
-const Navbar = () => {
+const NavbarC = () => {
     return (
-        <nav className="navbar" >
-            <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
-            <div className="navbar-right-container">
-                <h2 className="navbarLog"> Iniciar sesión </h2>
+        <nav className="navContainer" >
+            <div className="navbar">
+                <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
+                <img className="favorite" src={Favorite} alt="LogoEasy" ></img>
+                <img className="login" src={login} alt="LogoEasy"></img>
+                
+
                 <form className="dFlex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"></input>
                     <svg
@@ -24,10 +29,11 @@ const Navbar = () => {
                             clip-rule="evenodd"
                         />
                     </svg>
-                </form>                
+
+                </form>
             </div>
         </nav>
     )
 }
 
-export default Navbar
+export default NavbarC
