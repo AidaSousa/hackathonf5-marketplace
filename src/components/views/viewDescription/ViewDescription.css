@@ -13,3 +13,7 @@
     flex-direction: column;
     margin: 2%;
 }
+
+.linkCard{
+    text-decoration: none;
+}
