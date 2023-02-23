@@ -6,9 +6,9 @@ import Logo from '../../assets/logoEasy.svg'
 
 const Navbar = () => {
     return (
-        <nav className="navContainer" >
-            <div className="navbar">
-                <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
+        <nav className="navbar" >
+            <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
+            <div className="navbar-right-container">
                 <h2 className="navbarLog"> Iniciar sesión </h2>
                 <form className="dFlex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"></input>
@@ -24,8 +24,7 @@ const Navbar = () => {
                             clip-rule="evenodd"
                         />
                     </svg>
-
-                </form>
+                </form>                
             </div>
         </nav>
     )
