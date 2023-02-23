@@ -10,7 +10,10 @@ const Navbar = () => {
         <nav className="navbar" >
             <Link to="/"><img className="logoEasy" src={Logo} alt="LogoEasy"></img></Link>
             <div className="navbar-right-container">
-                <Link to='/form' className='linkNavBar'><h2 className="navbarLog"> Iniciar sesión </h2></Link>
+                <div className='userLogin'>
+                    <Link to='/register' className='linkNavBar'><h2 className="navbarLog"> Registrarse </h2></Link>
+                    <Link to='/form' className='linkNavBar'><h2 className="navbarLog"> Iniciar sesión </h2></Link>
+                </div>
                 <form className="dFlex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"></input>
                     <svg
@@ -25,7 +28,7 @@ const Navbar = () => {
                             clip-rule="evenodd"
                         />
                     </svg>
-                </form>                
+                </form>
             </div>
         </nav>
     )
