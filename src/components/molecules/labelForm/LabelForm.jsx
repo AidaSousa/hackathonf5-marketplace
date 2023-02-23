@@ -1,6 +1,7 @@
 import React from 'react';
+import "./LabelForm.css";
 
-function LabelForm ({handleInput, loginInput}) {
+function LabelForm () {
     return (
         <>
         <div className='form-box'>
@@ -9,8 +10,8 @@ function LabelForm ({handleInput, loginInput}) {
                 type='password'
                 className='label-up'  
                 placeholder='Password' 
-                value={loginInput.password}
-                onChange={handleInput}
+                // value={loginInput.password}
+                // onChange={handleInput}
                 name="password"
                 /> 
             <label>Password</label>
