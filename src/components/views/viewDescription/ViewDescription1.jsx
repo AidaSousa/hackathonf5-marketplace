@@ -10,6 +10,8 @@ import Carousel from '../../molecules/carousel/carousel'
 import CarouselItem from '../../atoms/carouselItem/carouselItem';
 import trial1 from '../../../assets/img/trial1.png';
 import trial2 from '../../../assets/img/trial2.png';
+import Buttons from '../../atoms/Buttons/Buttons';
+import { Link } from 'react-router-dom';
 
 
 function ViewDescription1() {
@@ -17,14 +19,15 @@ function ViewDescription1() {
     return (
         <div className='viewContainer'>
             <Carousel>
-                <CarouselItem><img src={trial1} style={{width: "100%"}}/></CarouselItem>
-                <CarouselItem><img src={trial2} style={{width: "100%"}}/></CarouselItem>
+                <CarouselItem><img src={trial1} style={{width: "100%"}} alt=""/></CarouselItem>
+                <CarouselItem><img src={trial2} style={{width: "100%"}} alt=""/></CarouselItem>
             </Carousel>
-            <Card sx={{ maxWidth: 1500 }} className="containerCard">
+            <Card sx={{ maxWidth: 2000 }} className="containerCard">
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" className='textCard'>
                         <h5>200.000€</h5>
                     </Typography>
+                    <Link to="/contact" className='linkCard'><Buttons/></Link>
                     <Typography gutterBottom variant="h5" component="div" className='textCard'>
                         <h5>Promoción en C. Londres <span className='subtitleCards'>100m²<img src={iMetro} alt="icon metro" /> 1 dorm.<img src={iDorm} alt="icon dormitorio" /> 1 baño<img src={iBath} alt="icon baño" /></span></h5>
                     </Typography>

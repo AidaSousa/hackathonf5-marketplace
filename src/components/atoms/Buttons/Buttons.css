@@ -1,0 +1,29 @@
+
+.btn{
+    background-color:rgba(241, 166, 64, 1);
+    border-color: transparent;
+    border-radius: 10px;
+    height: 43px;
+    width: 200px;
+    color: rgb(244, 247, 244);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buttonsCard{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.buttonsAdd{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}   
+
+@media screen and (max-width: 600px) {
+    .buttonsAdd {
+        margin-right: 7%;
+        margin-bottom: 5%;
+    }
+}

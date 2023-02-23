@@ -7,3 +7,9 @@
     border-left: 2px;
     border-right: 2px;
 }
+
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 2%;
+    }
+}
