@@ -8,6 +8,7 @@ import ViewDescription3 from "./components/views/viewDescription/ViewDescription
 import ViewDescription4 from "./components/views/viewDescription/ViewDescription1";
 import Form from "./components/views/form/Form";
 import Contact from "./components/views/Contact";
+import Publish from "./components/views/publish/Publish";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/ViewDescription4' element={<ViewDescription4/>}/>
           <Route path='/form' element={<Form/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/publish' element={<Publish/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      
