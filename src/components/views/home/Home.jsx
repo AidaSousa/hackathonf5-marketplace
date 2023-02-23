@@ -1,15 +1,15 @@
 import React from 'react'
-import Card1 from "../../assets/img/Carousel1.jpg";
-import Card2 from "../../assets/img/Carousel2.jpg";
-import Card3 from "../../assets/img/Carousel3.jpg";
-import Card4 from "../../assets/img/Carousel4.jpg";
-import ActionCard from "../molecules/ActionCard";
-import Carousel from '../molecules/carousel';
-import CarouselItem from '../atoms/carouselItem';
-import slider1 from "../../assets/img/Slider1.jpg"
-import slider2 from "../../assets/img/Slider2.jpg"
-import slider3 from "../../assets/img/Slider3.jpg";
-import "../views/home.css"
+import Card1 from "../../../assets/img/Carousel1.jpg";
+import Card2 from "../../../assets/img/Carousel2.jpg";
+import Card3 from "../../../assets/img/Carousel3.jpg";
+import Card4 from "../../../assets/img/Carousel4.jpg";
+import ActionCard from "../../molecules/actionCards/ActionCard";
+import Carousel from '../../molecules/carousel/carousel';
+import CarouselItem from '../../atoms/carouselItem/carouselItem';
+import slider1 from "../../../assets/img/Slider1.jpg"
+import slider2 from "../../../assets/img/Slider2.jpg"
+import slider3 from "../../../assets/img/Slider3.jpg";
+import "../home/home.css"
 import { Link } from 'react-router-dom';
 
 function Home() {

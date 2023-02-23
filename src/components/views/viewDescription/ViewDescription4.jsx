@@ -8,7 +8,7 @@ import iMetro from "../../assets/icons/iMetro.svg";
 import iBath from "../../assets/icons/iBath.svg";
 import iDorm from "../../assets/icons/iDorm.svg";
 import Card1 from "../../assets/img/Carousel2.jpg"
-import "../views/ViewDescription.css";
+import "./ViewDescription.css";
 
 
 function ViewDescription4() {
