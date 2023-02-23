@@ -3,6 +3,7 @@ import styles from './form.module.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import swal from 'sweetalert';
+import { Link } from 'react-router-dom'
 
 export default function Form() {
     const showAlert = () => {
@@ -38,6 +39,7 @@ export default function Form() {
                 <input name="password" onChange={handleChange} value={formData.password} className={styles.password} type="text" id='passwordInput'/>
             </div>
             <button onClick={()=>showAlert()} className={styles.contactSubmit}type='submit'>Continuar</button>
+            <Link style={{textDecoration: 'none', color: '#5C5ABC'}} to="/">Regresar a la Página Principal</Link>
         </form>
     </div>
   )

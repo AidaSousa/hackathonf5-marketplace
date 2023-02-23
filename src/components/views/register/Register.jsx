@@ -3,7 +3,7 @@ import styles from '../form/form.module.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import swal from 'sweetalert';
-
+import { Link } from 'react-router-dom';
 export default function Register() {
     const showAlert = () => {
         swal({
@@ -58,6 +58,7 @@ export default function Register() {
                 </select>
             </div>
             <button onClick={()=>showAlert()} className={styles.contactSubmit}type='submit'>Registrarse</button>
+            <Link style={{textDecoration: 'none', color: '#5C5ABC'}} to="/">Regresar a la Página Principal</Link>
         </form>
     </div>
   )
