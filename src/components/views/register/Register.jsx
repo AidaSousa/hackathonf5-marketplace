@@ -2,8 +2,18 @@ import React, {useState} from 'react'
 import styles from '../form/form.module.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import swal from 'sweetalert';
 
 export default function Register() {
+    const showAlert = () => {
+        swal({
+            title:"Bienvenido",
+            text:"!Te has registrado con éxito!",
+            icon:"success"
+
+        })
+    }
+
   const [formData, setFormData] = useState({name:"", email:"", username:"", password:"", password_confirmation:"", user_type:""})
   const handleChange = (event)=>{setFormData({...formData, [event.target.name]:event.target.value})}
   const navigate = useNavigate()
@@ -47,7 +57,7 @@ export default function Register() {
                     <option value={"usuario"}>Usuario</option>
                 </select>
             </div>
-            <button className={styles.contactSubmit}type='submit'>Registrarse</button>
+            <button onClick={()=>showAlert()} className={styles.contactSubmit}type='submit'>Registrarse</button>
         </form>
     </div>
   )
