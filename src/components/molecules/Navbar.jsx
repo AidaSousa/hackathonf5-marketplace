@@ -1,6 +1,6 @@
 import React from 'react'
-import '../navbar/Navbar.css'
-import Logo from '../../../assets/logoEasy.svg'
+import '../molecules/NavbarC.css'
+import Logo from '../../assets/logoEasy.svg'
 
 
 
