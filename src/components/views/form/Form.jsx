@@ -2,8 +2,17 @@ import React, {useState} from 'react'
 import styles from './form.module.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import swal from 'sweetalert';
 
 export default function Form() {
+    const showAlert = () => {
+      swal({
+          title:"Hola",
+          text:"!Has iniciado sesión con éxito!",
+          icon:"success"
+
+      })
+  }
   const [formData, setFormData] = useState({email:"", password:""})
   const handleChange = (event)=>{setFormData({...formData, [event.target.name]:event.target.value})}
   const navigate = useNavigate()
@@ -28,7 +37,7 @@ export default function Form() {
                 <label className={styles.formLabel} htmlFor='passwordInput'>Password</label>
                 <input name="password" onChange={handleChange} value={formData.password} className={styles.password} type="text" id='passwordInput'/>
             </div>
-            <button className={styles.contactSubmit}type='submit'>Continuar</button>
+            <button onClick={()=>showAlert()} className={styles.contactSubmit}type='submit'>Continuar</button>
         </form>
     </div>
   )
