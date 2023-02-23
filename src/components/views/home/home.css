@@ -9,3 +9,25 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.linkCardHome{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {    
+    
+    .containerCards {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding-left: 10%;
+    }
+    
+
+}
+
+
+
+ 
+    
+

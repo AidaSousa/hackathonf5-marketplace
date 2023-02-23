@@ -9,7 +9,7 @@ import iBath from "../../assets/icons/iBath.svg";
 import iDorm from "../../assets/icons/iDorm.svg";
 import Card1 from "../../assets/img/Carousel2.jpg"
 import "./ViewDescription.css";
-
+import { Link } from 'react-router-dom';
 
 function ViewDescription4() {
     
@@ -26,6 +26,7 @@ function ViewDescription4() {
             <Typography gutterBottom variant="h5" component="div" className='textCard'>
                 <h5>200.000€</h5>
             </Typography>
+            <Link to="/contact" className='linkCard'><Buttons/></Link>
             <Typography gutterBottom variant="h5" component="div"className='textCard'>
                 <h5>Promoción en C. Londres <span className='subtitleCards'>100m²<img src={iMetro} alt="icon metro"/> 1 dorm.<img src={iDorm} alt="icon dormitorio"/> 1 baño<img src={iBath} alt="icon baño" /></span></h5>
             </Typography>

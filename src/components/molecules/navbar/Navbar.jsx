@@ -1,15 +1,16 @@
 import React from 'react'
 import '../navbar/Navbar.css'
 import Logo from '../../../assets/logoEasy.svg'
+import { Link } from 'react-router-dom'
 
 
 
 const Navbar = () => {
     return (
         <nav className="navbar" >
-            <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
+            <Link to="/"><img className="logoEasy" src={Logo} alt="LogoEasy"></img></Link>
             <div className="navbar-right-container">
-                <h2 className="navbarLog"> Iniciar sesión </h2>
+                <Link to='/form' className='linkNavBar'><h2 className="navbarLog"> Iniciar sesión </h2></Link>
                 <form className="dFlex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"></input>
                     <svg
