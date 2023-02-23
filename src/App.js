@@ -9,6 +9,7 @@ import ViewDescription4 from "./components/views/viewDescription/ViewDescription
 import Form from "./components/views/form/Form";
 import Contact from "./components/views/Contact";
 import Publish from "./components/views/publish/Publish";
+import ViewDescription from "./components/views/viewDescription/ViewDescription";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/ViewDescription/:id' element={<ViewDescription/>}/>
           <Route path='/ViewDescription1' element={<ViewDescription1/>}/>
           <Route path='/ViewDescription2' element={<ViewDescription2/>}/>
           <Route path='/ViewDescription3' element={<ViewDescription3/>}/>

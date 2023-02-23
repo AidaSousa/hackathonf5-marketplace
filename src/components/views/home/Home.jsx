@@ -64,11 +64,11 @@ function Home() {
       </div>
       <div className="containerCards">
         {projects.map((pisos) => (
-          <Link to="/ViewDescription1" className="linkCardHome">
+          <Link to={`/ViewDescription/${pisos.id}`} className="linkCardHome">
             <ActionCard
               img={Card1}
               price={pisos.precio + "€"}
-              direc={pisos.zona}
+              direc={pisos.ciudad}
               m={pisos.extension+ "m²"}
               hab={pisos.habitaciones + " dorm."}
               bath={pisos.baños + " baño/s"}
