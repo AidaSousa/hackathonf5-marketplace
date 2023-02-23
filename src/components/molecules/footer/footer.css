@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color:  rgba(92, 90, 188, 1);
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 2%;
+    }
+}

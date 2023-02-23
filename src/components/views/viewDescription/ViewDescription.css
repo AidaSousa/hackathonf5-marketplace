@@ -1,0 +1,35 @@
+.subtitleCards{
+    color: #777777;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+}
+
+
+.viewContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.linkCard{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .viewContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 4% 8% 2% 2%;
+    }
+
+    .subtitleCards{
+        color: #777777;
+        font-size: 1.2rem !important;
+        display: flex;
+        align-items: center;
+    }
+}
