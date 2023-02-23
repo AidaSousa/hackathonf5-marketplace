@@ -3,18 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:15px;
+    gap: 15px;
     min-height: 80vh;
     padding: 30px 0px;
 }
 
 .publishForm {
-    padding:10px;
+    padding: 10px;
     max-width: 1000px;
     width: 90vw;
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     font-size: 12px;
@@ -25,33 +25,34 @@
     min-width: 360px;
     max-width: 755px;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
 }
 
 .input label {
     background-color: #5C5ABC;
     width: 20%;
-    text-align: end;
-    padding: 10px 15px;
-    color:white;
+    text-align: start;
+    padding: 10px 30px;
+    color: white;
     border-radius: 10px 0 0 10px;
     border: none;
     box-shadow: 0 5px 5px #888;
+
 }
 
 .input input {
-    width:80%;
+    width: 80%;
     background-color: #f3f3f3;
     box-shadow: 0 5px 5px #888;
-    border:none;
+    border: none;
     border-radius: 0 35px 35px 0;
     padding: 0 15px;
 }
 
 .input input:focus {
-    outline:none;
+    outline: none;
 }
 
 .location {
@@ -62,43 +63,44 @@
     justify-content: center;
     gap: 37px;
 }
+
 .surfaceInput::-webkit-outer-spin-button,
 .surfaceInput::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .priceInput::-webkit-outer-spin-button,
 .priceInput::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .inputColumn {
     min-width: 360px;
     max-width: 755px;
     width: 30%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
 }
 
 .inputColumn label {
     background-color: #5C5ABC;
     width: 30%;
-    text-align: end;
+    text-align: start;
     padding: 10px 15px;
-    color:white;
+    color: white;
     border-radius: 10px 0 0 10px;
     border: none;
     box-shadow: 0 5px 5px #888;
 }
 
 .inputColumn input {
-    width:70%;
+    width: 70%;
     background-color: #f3f3f3;
     box-shadow: 0 5px 5px #888;
-    border:none;
+    border: none;
     border-radius: 0 35px 35px 0;
     padding: 0 15px;
 }
@@ -120,9 +122,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 35px;
-    gap:25px;
+    gap: 25px;
     background-color: #5C5ABC;
-    color:white;
+    color: white;
     padding: 10px 20px;
 }
 
@@ -130,32 +132,33 @@
     min-width: 360px;
     max-width: 755px;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
 }
 
 .charInput label {
     background-color: #5C5ABC;
     width: 20%;
-    text-align: end;
-    padding: 10px 15px;
-    color:white;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
     border-radius: 10px 0 0 10px;
     border: none;
     box-shadow: 0 5px 5px #888;
+
 }
 
 .charInput input {
-    width:80%;
+    width: 80%;
     background-color: #f3f3f3;
     box-shadow: 0 5px 5px #888;
-    border:none;
+    border: none;
     padding: 0 15px;
 }
 
 .charInput input:focus {
-    outline:none;
+    outline: none;
 }
 
 .addCharBtn {
@@ -165,7 +168,7 @@
     border: none;
     font-size: 20px;
     font-weight: 700;
-    padding:10px 35px;
+    padding: 20px 35px;
     border-radius: 0 20px 20px 0;
     font-size: 14px;
     box-shadow: 0 5px 5px #888;
@@ -178,14 +181,16 @@
     border: none;
     font-size: 20px;
     font-weight: 700;
-    padding:10px 35px;
+    padding: 10px 35px;
     border-radius: 20px;
     font-size: 14px;
     box-shadow: 0 5px 5px #888;
 }
+
 .addPhotoBtn:hover {
     opacity: 0.7;
 }
+
 .contactSubmit {
     margin-top: 20px;
     min-width: 120px;
@@ -194,11 +199,26 @@
     border: none;
     font-size: 20px;
     font-weight: 700;
-    padding:10px 35px;
+    padding: 10px 35px;
     border-radius: 20px;
-    
+
 }
 
 .contactSubmit:hover {
     opacity: 0.7;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 75px;
+    padding: 5px;
+    width: 250px;
+ }
+
+@media screen and (max-width: 600px) {
+    .publishForm {
+        padding-right: 4%;
+    }
 }

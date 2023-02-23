@@ -10,6 +10,7 @@ import Form from "./components/views/form/Form";
 import Contact from "./components/views/Contact";
 import Publish from "./components/views/publish/Publish";
 import ViewDescription from "./components/views/viewDescription/ViewDescription";
+import Register from "./components/views/register/Register";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/form' element={<Form/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/publish' element={<Publish/>}/>
+          <Route path='/register' element={<Register/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      

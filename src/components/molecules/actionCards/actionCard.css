@@ -1,6 +1,12 @@
 .containerCards{
     text-decoration: none;
+}
 
+.textCard {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 }
 
 
@@ -22,6 +28,18 @@
     .css-r40f8v-MuiTypography-root {
         font-size: 0.675rem !important;
         text-decoration: none;
+    }
+
+    .css-46bh2p-MuiCardContent-root {
+        margin-top: -10%;
+    }
+
+    .css-h93ljk-MuiTypography-root {
+        margin-bottom: 0.1em !important;
+    }
+
+    .css-1vw6mcs-MuiTypography-root {
+        margin-bottom: 0.1em !important;
     }
 
 }
