@@ -6,6 +6,7 @@ import ViewDescription1 from "./components/views/ViewDescription1";
 import ViewDescription2 from "./components/views/ViewDescription2";
 import ViewDescription3 from "./components/views/ViewDescription3";
 import ViewDescription4 from "./components/views/ViewDescription4";
+import Contact from "./components/views/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/ViewDescription2' element={<ViewDescription2/>}/>
           <Route path='/ViewDescription3' element={<ViewDescription3/>}/>
           <Route path='/ViewDescription4' element={<ViewDescription4/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      
