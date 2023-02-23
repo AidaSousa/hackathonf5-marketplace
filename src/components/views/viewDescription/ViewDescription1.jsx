@@ -10,9 +10,18 @@ import Carousel from '../../molecules/carousel/carousel'
 import CarouselItem from '../../atoms/carouselItem/carouselItem';
 import trial1 from '../../../assets/img/trial1.png';
 import trial2 from '../../../assets/img/trial2.png';
+import swal from 'sweetalert';
 
 
 function ViewDescription1() {
+    const mostrarAlerta=()=>{
+        swal({
+            title:"Aviso",
+            text:"!Este piso ha bajado su precio hace un minuto!",
+            icon:"warning"
+
+        })
+    }
 
     return (
         <div className='viewContainer'>
@@ -34,6 +43,7 @@ function ViewDescription1() {
                     </Typography>
                 </CardContent>
             </Card>
+            <button onClick={()=>mostrarAlerta()}>Mostrar Alerta</button>
         </div>
     )
 }
