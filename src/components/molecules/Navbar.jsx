@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className="navContainer" >
             <div className="navbar">
-                <img className="logoEasy" src={Logo} alt="LogoEasy"></img>
+                <a href='../../views/home/Home.jsx'><img className="logoEasy" src={Logo} alt="LogoEasy"></img></a>
                 <div className='userInterface'>
                     <a className="navbarLog" href=''> Iniciar sesión </a>
                     <form className="dFlex" role="search">

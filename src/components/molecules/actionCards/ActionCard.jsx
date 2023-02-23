@@ -16,7 +16,7 @@ export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
     <Card sx={{ maxWidth: 360 }}>
       <CardActionArea className='containerCards'>
         <div>
-           <a><img src={Heart} alt="Heart" className=''/></a>
+           <button style={{background: 'none', border: 'none', display: 'flex'}}><img src={Heart} alt="Heart"/></button>
           <CardMedia
             component="img"
             image={img} 

@@ -19,9 +19,9 @@ function Home() {
     <div className='containerHome'>
         <div className='containerCarousel'>
             <Carousel>
-                <CarouselItem><img src={slider1} style={{width: "100%"}} alt="#"/></CarouselItem>
-                <CarouselItem><img src={slider2} style={{width: "100%"} } alt="#"/></CarouselItem>
-                <CarouselItem><img src={slider3} style={{width: "100%"} } alt="#"/></CarouselItem>
+                <CarouselItem><img src={slider1} style={{width: "100%", height: "100%"} } alt="#"/></CarouselItem>
+                <CarouselItem><img src={slider2} style={{width: "100%", height: "100%"} } alt="#"/></CarouselItem>
+                <CarouselItem><img src={slider3} style={{width: "100%", height: "100%"} } alt="#"/></CarouselItem>
             </Carousel>
         </div>
         <div className='containerCards'>
