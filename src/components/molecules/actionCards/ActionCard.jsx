@@ -16,8 +16,9 @@ export default function ActionAreaCard({img, price, direc, m, hab, bath}) {
       <CardActionArea className='containerCards'>
         <CardMedia
           component="img"
-          image={img}
+          image={img} 
           alt="home"
+          
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" className='textCard'>
